@@ -1,0 +1,39 @@
+
+.carrusel-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carrusel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrusel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.carrusel-button.prev {
+    left: 10px;
+}
+
+.carrusel-button.next {
+    right: 10px;
+}
+
+.carrusel-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

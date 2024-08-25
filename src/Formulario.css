@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#fondo{
+    background-color: rgb(243 244 246);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+#contPrincipal{
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+    padding:20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+}
+
+#textArea1{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+
+.dato{
+    width: 300px;
+}
+
+input {
+    border-radius: 2px;
+    padding: 6px; 
+    border-color: rgb(209 213 219);
+    border-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+button{
+    padding: 12px 12px;
+    border-radius: 20px;
+    background-color: #04244a;
+    color: white;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    width: 80px;
+    margin-right: 5%;    
+}
+
+#botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.float-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#prueba{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sex{
+    position: absolute;
+    left: 20%;
+    transform: translate(225%, 125%);
+}
+.sex1{
+    position: absolute;
+    left: 20%;
+    transform: translate(275%, 125%);
+}
+.sex2{
+    position: absolute;
+    left: 20%;
+    transform: translate(525%, 125%);
+}
+.sex3{
+    position: absolute;
+    left: 20%;
+    transform: translate(490%, 125%);
+}

@@ -1,0 +1,58 @@
+.imagenes {
+    text-align: center;
+    padding: 20px;
+    /*background-color: #f4f4f4;*/
+  }
+  
+  .imagenes h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .bloques-imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 10px;
+  }
+  
+  .bloque {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .bloque img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .bloque .texto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: #1E2A5E;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .bloque:hover img {
+    opacity: 0;
+  }
+  
+  .bloque:hover .texto {
+    opacity: 1;
+  }

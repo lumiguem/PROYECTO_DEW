@@ -1,0 +1,30 @@
+.servicios {
+    text-align: center;
+    /*background-color: #f9f9f9;*/
+  }
+  
+  .servicios h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .imagenes-servicios {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  
+  .imagenes-servicios img {
+    width: 350px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  
+  .imagenes-servicios img:hover {
+    transform: scale(1.05);
+  }

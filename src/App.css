@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+/* Login */
+
+.login_section{
+    background-color: rgb(243 244 246);
+    display: none;
+    height: 720px;
+    place-content: center;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login_form{
+    display: grid;
+    gap: 24px;
+    background-color: white;
+    border-radius: 12px;
+    padding: 16px;
+    max-width: 350px;    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.login_form h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.login_form div{
+    display: grid;
+    gap: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.login_form label{
+    font-size: 14px;
+    line-height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login_form input{
+    border-color: rgb(209 213 219);
+    border-width: 1px;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
 }
+
+.login_form button{
+    display: block;
+    width: 100%;
+    background-color: #1E2A5E;
+    border-radius: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.login_form button:hover{
+    background-color: #30418e;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+.login_form span{
+   
+}
+
+
+
